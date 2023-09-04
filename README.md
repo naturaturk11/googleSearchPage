@@ -1,38 +1,39 @@
 # googleSearchPage
 ------------As a framework used in the project:-------------
-Java Selenium Cucumber project inside a Google search action was tested.
-In this project Java as a programing language,
-Selenium as a automation tool and Maven built automation tool were used.
-Cucumber with BDD framework by using Gherkin Language was used the steps to be understood easily.
-As part of project Junit and TestNG were used to manage the project and assertions were  used for verifications.
-Features package under the Resources Directory was created for the Scenario with the steps  of the testing process.
-POMxml are the storage for the dependencies any necessary plugins. Each needed version of dependicies were added.
-Configuration.properties is a Directory in which some key=value format inwhich basic information were added 
-to control project easily and avoid from hard coding but insted making some common info easily
-Page Object Model is main concept of the project. Th pages package was created to locate the web elements and 
-it provides to make any changes when neccesary and the located elements used in the coding process easily
-and two type of pages were created to be followed the coding process clearly
-Intelij-IDE was used to write the project.
-To run codes, two types of runner class were created one of them is used to run the codes 
-the FailedTestRunner was created to test the failed codes only.
-Inside the Cukes Runner the paths of feature and stepDefinition were added 
-and plugin for the comprehensive reporting was integrated.tags is used for the signof executed part
-Inside step definition part two class were created one of them consists of codes and assertions
-the other class,hook, was created to get a screenshot when any failure is revealed.
-In the utilities part, Driver as a singelton design pattern for execution the codes was created.
-Configuration reader was the created to read the information located inside configuration.properties.
-Some commonly used methods which makes the coding and testing process so fast and safe were located 
-inside BrowserUtils
-For the reporting part the cucumber reporting plugin were added to be uderstood the results properly and
-detailed analysis could be reached by using cucumber report.
+A Google search action was thoroughly tested within a Java Selenium Cucumber project. In this project, we utilized Java as the programming language and employed Selenium as our automation tool, with Maven as the build automation tool. We also adopted the Cucumber framework with BDD (Behavior-Driven Development) using the Gherkin language to facilitate comprehensibility.
 
-------Testing and Assertion process----------
- The google main page was analyzied in order to ensure the search button works adequately. This testing process was
- analyzed from the user perspective. Then each steps were added to the testing process. To test the google search button
- the "akirolabs" phrase was selected and added. To be ensure that the results were shown or not, 
- some sort of selenium-testNG-jUnit assertions types and methods were used like getting title and the page of current Url
- Each steps of testing process ware observed closely and testing process was complated successfully.
- 
+JUnit and TestNG were both employed to manage the project, and assertions played a pivotal role in verification.
+
+To structure the testing process, we organized features into a package located under the Resources Directory, specifying steps for scenarios.
+
+The POM.xml file served as the repository for dependencies and essential plugins, each version carefully accounted for.
+
+We introduced the Configuration.properties directory to store basic information in key=value format, promoting project control, and mitigating hard coding in favor of easily accessible common information.
+
+The central concept of the project was the Page Object Model (POM), with a 'pages' package designed for web element location. This approach streamlined code changes and facilitated the use of located elements in coding. We created two types of pages to maintain clarity throughout the coding process.
+
+We harnessed the power of IntelliJ IDEA for project development. In terms of execution, we crafted two runner classes—one for running all the codes and another, FailedTestRunner, specifically for testing failed codes.
+
+Within the Cukes Runner, we integrated paths for features and step definitions, and we incorporated plugins for comprehensive reporting. Tags were utilized to denote executed parts.
+
+In the step definition section, two classes were created. One contained codes and assertions, while the other, 'hook,' was designed to capture screenshots upon detecting failures.
+
+The utilities section featured a Driver as a singleton design pattern for code execution, and we implemented a Configuration Reader to extract information from configuration.properties.
+
+We enhanced efficiency and safety with commonly used methods tucked away inside BrowserUtils.
+
+For reporting, we incorporated the Cucumber reporting plugin to gain a clear understanding of results and to access detailed analyses through the Cucumber report.
+
+---Testing and Assertion Process---
+The main Google page underwent a user-oriented analysis to ensure the functionality of the search button. We approached this testing process from a user's perspective, meticulously adding each step. To verify the Google search button's functionality, we selected and entered the search phrase "akirolabs." To ascertain whether results were displayed, we employed various Selenium-TestNG-JUnit assertion types and methods, including title retrieval and monitoring the current URL.
+
+Every step of the testing process was meticulously observed, resulting in the successful completion of the testing process.
+
+
+
+
+
+
 
 
 
